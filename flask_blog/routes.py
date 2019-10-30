@@ -4,21 +4,22 @@ from flask_blog import app
 from flask_blog.forms import LoginForm, RegistrationForm
 from flask_blog.models import Post, User
 
+# Dummy Data
 posts = [
     {
-        'author': 'Varun Irani',
+        'author': 'John Doe',
         'title': 'Blog Post 1',
         'content': 'Blog Post 1 Content',
         'date_posted': 'October 29, 2019'
     },
     {
-        'author': 'Sukrut Bidwai',
+        'author': 'Jane Doe',
         'title': 'Blog Post 2',
         'content': 'Blog Post 2 Content',
         'date_posted': 'October 30, 2019'
     },
     {
-        'author': 'Karan Kamat',
+        'author': 'Diana Smith',
         'title': 'Blog Post 3',
         'content': 'Blog Post 3 Content',
         'date_posted': 'November 30, 2019'

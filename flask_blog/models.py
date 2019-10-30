@@ -2,6 +2,7 @@ from datetime import datetime
 
 from flask_blog import db
 
+# The user table in the SQLite database
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(20), unique=True, nullable=False)
@@ -14,7 +15,7 @@ class User(db.Model):
     def __repr__(self):
         return f'User("{self.username}", "{self.email}", "{self.image_file}")'
 
-
+# The post table in the SQLite database
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
