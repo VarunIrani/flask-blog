@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to flask_blog 👋</h1>
+<h1 align="center">Welcome to flask-blog 👋</h1>
 <p>
 </p>
 
